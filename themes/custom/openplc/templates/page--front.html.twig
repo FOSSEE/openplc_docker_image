@@ -1,0 +1,23 @@
+ <div class="container-fluid" style="background: #e5f5cb;">
+    {{page.banner}}
+    <header role="banner">
+      {{ page.header }}
+    </header>
+
+    {{ page.primary_menu }}
+    {{ page.secondary_menu }}
+
+    {{ page.openplc_corousal }}
+
+    {{ page.highlighted }}
+    {{ page.help }}
+    {{ page.breadcrumb }}
+    <main role="main">
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+          {# <div class="container"> #}
+            {{ page.content }}
+          {#</div>{# /.layout-content #}
+       </main>
+
+    {{ page.footer }}
+  </div>{#/.layout-container #}
