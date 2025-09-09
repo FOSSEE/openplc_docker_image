@@ -33,6 +33,7 @@
         "drupal/matomo": "^1.23",
         "drupal/owlcarousel": "^3.0",
         "drupal/owlcarousel2": "^2.0",
+        "drupal/pathologic": "^2.0@alpha",
         "drupal/php": "^1.2",
         "drupal/recaptcha": "^3.2",
         "drupal/seven": "^1.0.0",
